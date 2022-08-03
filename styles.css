@@ -1,0 +1,183 @@
+body {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+}
+
+div.header {
+      width: 100%;
+      background-color: gray;
+      margin: 0px;
+      position: fixed;
+      top: 0;
+      display: flexbox;
+}
+
+h3 {
+      font-size: 30px;
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+}
+p {
+      display: flex;
+}
+.ptime {
+      display: block;
+      position: absolute;
+      right: 0;
+      font-size: 20px;
+      margin: 10px;
+}
+#time {
+      width: 40%;
+      margin: 5px;
+      display: none;
+}
+
+b {
+      line-height: 3;
+}
+#start {
+      width: 100px;
+      height: 30px;
+}
+
+#instructions {
+      width: 80%;
+      display: block;
+      margin: 200px auto;
+      position: relative;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      height: 150px;
+      border: 1px solid black;
+}
+
+#q1 {
+      transition: .4s;
+      width: 80%;
+      display: none;
+      margin: 100px auto;
+      position: relative;
+      height: fit-content;
+      min-height: 530px;
+      height: fit-content;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid black;
+      transition: .4s;
+}
+#q2 {
+      width: 80%;
+      display: none;
+      margin: 100px auto;
+      position: relative;
+      height: fit-content;
+      min-height: 530px;
+      height: fit-content;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid black;
+}
+#q3 {
+      height:600px;
+      width: 80%;
+      display: none;
+      margin: 100px auto;
+      position: relative;
+      height: fit-content;
+      min-height: 530px;
+      height: fit-content;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid black;
+}
+#q4 {
+      height: 400px;
+      width: 90%;
+      display: none;
+      margin: 150px auto;
+      position: relative;
+      height: fit-content;
+      text-align: center;
+      border-radius: 10px;
+      border: 1px solid black; 
+}
+input {
+      margin: 30px auto;
+      width: 60%;
+      height: 40px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 10px;
+      outline: none;
+      font-size: 20px;
+}
+#submit {
+      display: block;
+      margin: 5px auto;
+      width: 30%;
+      height: 40px;
+      border: 1px solid black;
+      border-radius: 10px;
+      outline: none;
+      font-size: 20px;
+}
+
+p {
+      margin: 30px;
+      font-weight: 600;
+      font-size: 30px;
+      text-align: center;
+      text-decoration: underline;
+}
+
+button {
+      width: 60%;
+      margin: 20px;
+      font-size: 20px;
+      height: fit-content;
+      min-height: 40px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: .1px solid black;
+}
+
+button:hover {
+      transition: .5s;
+      background-color: gray;
+      color: black;
+}
+
+#back {
+      width: 100px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin: 20px;
+}
+
+#next1 ,
+#next2 , 
+#next3 {
+      width: 100px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+}
+
+#testsubject {
+      text-align: center;
+      color: black;
+      display: block;
+      line-height: 2;
+}
+#testsubject2 {
+      text-align: center;
+      color: black;
+      display: block;
+      line-height: 1.2;
+}
